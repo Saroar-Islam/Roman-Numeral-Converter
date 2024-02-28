@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#romanConverter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: antiquewhite;
+}
+
+header {
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+#converter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 2.5rem;
+    background-color: rgb(173, 139, 95);
+    width: 80%;
+    max-width: 400px;
+    margin: 40px 0 5px 0;
+}
+
+#label {
+    font-weight: 900;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+#number {
+    width: 90%;
+    margin-bottom: 5px;
+    min-height: 35px;
+    font-size: 2rem;
+}
+
+#convert-btn {
+    padding: 10px;
+    background-color: rgb(185, 222, 50);
+    font-size: 1.5rem;
+    border-radius: 4px;
+    font-family: monospace;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#output {
+    background-color: rgb(173, 139, 95);
+    width: 79%;
+    max-width: 400px;
+    border-radius: 5px;
+    min-height: 40px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: cursive;
+    text-wrap: wrap;
+}
